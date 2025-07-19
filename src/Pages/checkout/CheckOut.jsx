@@ -32,7 +32,7 @@ export default function CheckOut() {
     setLoading(true);
     try {
       const options = {
-        url: `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartData._id}?url=http://localhost:5173`,
+        url: `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartData._id}?url=https://fast94.github.io/E-commerce/`,
         method: "POST",
         headers: { token },
         data: values,
