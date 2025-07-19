@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@utility container {
+  margin: auto;
+}
+
+.active {
+  font-weight: 500;
+}
